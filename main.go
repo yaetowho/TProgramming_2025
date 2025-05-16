@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	//   fmt.Println("Журавлев Сергей Викторович")
+	fmt.Println("Журавлев Сергей Викторович")
 	//   fmt.Println("Значения функции arcsin(x^a) + arccos(x^b):", calculate(2, 3, 0.08))
 	fmt.Println("Задача А:")
 	taskA()
