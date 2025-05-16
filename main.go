@@ -10,6 +10,8 @@ func main() {
 	//   fmt.Println("Значения функции arcsin(x^a) + arccos(x^b):", calculate(2, 3, 0.08))
 	fmt.Println("Задача А:")
 	taskA()
+	fmt.Println("Задача B:")
+	taskB()
 }
 
 func calculate(a, b, x float64) float64 {
@@ -24,5 +26,13 @@ func taskA() {
 
 	for x := xn; x < xe; x += dx {
 		fmt.Println(calculate(2.0, 3.0, x))
+	}
+}
+
+func taskB() {
+	arr := [5]float64{0.08, 0.26, 0.35, 0.41, 0.53}
+
+	for _, el := range arr {
+		fmt.Println(calculate(2.0, 3.0, el))
 	}
 }
