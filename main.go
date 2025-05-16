@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("Журавлев Сергей Викторович")
 	fmt.Println("Значения функции arcsin(x^a) + arccos(x^b):")
-	fmt.Println(calculate(2, 3, 0.8))
+	fmt.Println(calculate(2, 3, 0.08))
 }
 
 func calculate(a, b, x float64) (float64 float64) {
